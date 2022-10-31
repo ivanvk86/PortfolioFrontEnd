@@ -31,4 +31,6 @@ div#info-actions {
     display: flex;
 }
 
-#info {font-family: sans-serif;}
+div#info {
+    font-family: sans-serif;
+}
