@@ -17,8 +17,8 @@
 
   <body>
 
-  <div class="tarjeta" id="first-card">
-    <div id="profile-background"><img src="https://investrends.ch/site/assets/files/26116/galaxy_zeit_raum_shutterstock_nasa_images.960x533.jpg"></div>
+  <div class="card" id="first-card">
+    <div id="profile-background"><img src="https://s1.1zoom.me/big3/873/370731-svetik.jpg"></div>
     <div id="info" style="padding:16px">
       <div id="info-img">
         <img class="profile-image" src="foto_perfil_1.jpg" alt="profile_pic">
@@ -48,21 +48,27 @@
     </div>
   </div>
   
-    <div class="card-titles">
+  <div class="card">
       <h3>Acerca de</h3>
       <div class="btn-edit" onclick="cambiar_parrafo()">
         <a href="#" class="btn-right">
           <i class="fa fa-pen"></i>
         </a>
       </div>
-    </div>
+  </div>
+  
+  <div class="card">
     <div>
       <p id="text-acercade">Diletante</p>
     </div>
     <div>
       <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display:none">
     </div>
-    <input type="file" id="file1" onchange="showFile(this)">
+    <div>
+      <input type="file" id="file1" onchange="showFile(this)">
+    </div>
+  </div>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
     <script src="./script.js" defer></script>
