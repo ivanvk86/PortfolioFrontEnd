@@ -7,11 +7,11 @@
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet"> 
     
-    <title>Inicio</title>
+    <title>Profile</title>
 
   </head>
 
@@ -22,7 +22,7 @@
     <div id="info" style="padding:16px">
       <div id="info-img">
         <img class="profile-image" src="foto_perfil_1.jpg" alt="profile_pic">
-        <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>                                         
+        <div class="btn-edit"><a href="#" class="btn-right"><i class="fas fa-pen"></i></a></div>                                         
       </div>
       <div id="info-data">
         <div>
@@ -49,29 +49,27 @@
   </div>
   
   <div class="card">
+    <div class="card-titles">
       <h3>Acerca de</h3>
       <div class="btn-edit" onclick="cambiar_parrafo()">
         <a href="#" class="btn-right">
-          <i class="fa fa-pen"></i>
+          <i class="fas fa-pen"></i>
         </a>
       </div>
-  </div>
-  
-  <div class="card">
+    </div>
     <div>
       <p id="text-acercade">Diletante</p>
     </div>
     <div>
       <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display:none">
     </div>
-    <div>
-      <input type="file" id="file1" onchange="showFile(this)">
-    </div>
+  </div>
+  <div>
+    <input type="file" id="file1" onchange="showFile(this)">
   </div>
   
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
-    <script src="./script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+  <script src="./script.js" defer></script>
   
   </body>
 
